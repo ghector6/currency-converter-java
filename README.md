@@ -4,7 +4,6 @@ Welcome! This is a hands-on project developed as part of the Java Backend course
 
 ## 🧑‍🏫 Project Context
 
-Hi, my name is Génesys Rondón and I'll be your guide on this learning journey. This currency converter is a great opportunity to reinforce what you've learned in your initial Java training. The idea is to work with a console-based application that:
 
 - Displays a menu with multiple currency conversion options.
 - Prompts the user to enter a value to convert.
