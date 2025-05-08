@@ -1,9 +1,11 @@
 package dev.ghector6.currencyconverter.main;
 
-import java.net.http.HttpClient;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
-        HttpClient client = HttpClient.newHttpClient();
+    public static void main(String[] args){
+        CurrencyQuery currencyQuery = new CurrencyQuery();
+        Currency currency = currencyQuery.searchCurrency();
+        System.out.println(currency.conversionRates());
     }
 }
