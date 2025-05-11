@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args){
         CurrencyQuery currencyQuery = new CurrencyQuery();
         Currency currency = currencyQuery.searchCurrency();
-        System.out.println(currency.conversionRates());
+        CurrencyConversion currencyConversion = new CurrencyConversion();
+        System.out.println(currencyConversion.currencyConversion(0, currency));
     }
+
 }
