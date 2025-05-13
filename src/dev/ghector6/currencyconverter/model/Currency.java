@@ -1,4 +1,4 @@
-package dev.ghector6.currencyconverter.main;
+package dev.ghector6.currencyconverter.model;
 
 import java.util.Map;
 

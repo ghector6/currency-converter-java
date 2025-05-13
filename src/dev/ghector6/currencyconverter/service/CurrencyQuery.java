@@ -1,8 +1,9 @@
-package dev.ghector6.currencyconverter.main;
+package dev.ghector6.currencyconverter.service;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import dev.ghector6.currencyconverter.model.Currency;
 
 import java.io.IOException;
 import java.net.URI;

@@ -1,4 +1,4 @@
-package dev.ghector6.currencyconverter.main;
+package dev.ghector6.currencyconverter.model;
 
 public enum CurrencyOptions {
     USD_TO_MXN(1, "USD", "MXN"),

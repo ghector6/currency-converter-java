@@ -1,4 +1,8 @@
-package dev.ghector6.currencyconverter.main;
+package dev.ghector6.currencyconverter.ui;
+
+import dev.ghector6.currencyconverter.model.Currency;
+import dev.ghector6.currencyconverter.model.CurrencyOptions;
+import dev.ghector6.currencyconverter.service.CurrencyConversion;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
