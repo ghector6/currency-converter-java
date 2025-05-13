@@ -1,5 +1,6 @@
 package dev.ghector6.currencyconverter.main;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CurrencyUI {
@@ -46,22 +47,25 @@ public class CurrencyUI {
     private int readInt(String prompt){
         while(true){
             System.out.println(prompt);
-            if(scanner.hasNextInt()){
+            try{
                 return scanner.nextInt();
+
+            }catch(InputMismatchException e){
+                System.out.println("Invalid input. Select a number");
+                scanner.nextLine();
             }
-            System.out.println("Invalid input. Select a number");
-            scanner.nextInt();
         }
     }
 
     private double readDouble(String prompt){
         while(true){
             System.out.println(prompt);
-            if(scanner.hasNextDouble()){
+            try{
                 return scanner.nextDouble();
+            }catch (InputMismatchException e){
+                System.out.println("Invalid input. Select a number");
+                scanner.nextLine();
             }
-            System.out.println("Invalid input. Select a number");
-            scanner.nextInt();
         }
     }
 
